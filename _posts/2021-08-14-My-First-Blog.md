@@ -11,7 +11,9 @@ tags:
     - Daily
 ---
 
-## WELCOME!
+## WELCOME!<br>
+
+![avatar.jpg](https://i.loli.net/2021/08/14/vFARlc2TrjD9a65.jpg)
 
 Hi~ Welcome to my homepage!
 
