@@ -6,6 +6,7 @@ date:       2021-08-14
 author:     KOKILI
 header-img: img/post-bg-2015.jpg
 catalog: true
+stickie: true
 tags:
     - Daily
 ---
