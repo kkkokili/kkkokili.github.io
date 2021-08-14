@@ -6,7 +6,6 @@ date:       2021-08-14
 author:     KOKILI
 header-img: img/galaxy-min.jpg
 catalog: true
-stickie: true
 tags:
     - Daily
 ---
