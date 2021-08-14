@@ -4,7 +4,7 @@ title:      My First Formal Blog
 subtitle:   (Original) 小桐的第一篇正式博文
 date:       2021-08-14
 author:     KOKILI
-header-img: img/home-bg.jpg
+header-img: img/post-bg-infinity.jpg
 catalog: true
 stickie: true
 tags:
