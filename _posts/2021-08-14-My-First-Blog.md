@@ -11,7 +11,7 @@ tags:
     - Daily
 ---
 
-#WELCOME!
+## WELCOME!
 
 Hi~ Welcome to my homepage!
 
