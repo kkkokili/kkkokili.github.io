@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      My First Formal Blog
-subtitle:   (Original) 用XXAMPP配置本地环境
+subtitle:   (Original) 小桐的第一篇正式博文
 date:       2021-08-14
 author:     KOKILI
 header-img: img/post-bg-2015.jpg
