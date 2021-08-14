@@ -12,7 +12,7 @@ tags:
 ---
 
 ## WELCOME!<br>
-
+<img src='https://i.loli.net/2021/08/14/jalR3OmuMXcp62K.jpg' align='left' />
 ![new.jpg](https://i.loli.net/2021/08/14/jalR3OmuMXcp62K.jpg)
 
 Hi~ Welcome to my homepage!
