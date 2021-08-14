@@ -13,7 +13,7 @@ tags:
 
 ## WELCOME!<br>
 
-![avatar.jpg](https://i.loli.net/2021/08/14/vFARlc2TrjD9a65.jpg)
+![new.jpg](https://i.loli.net/2021/08/14/jalR3OmuMXcp62K.jpg)
 
 Hi~ Welcome to my homepage!
 
