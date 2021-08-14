@@ -11,13 +11,15 @@ tags:
     - Daily
 ---
 
-## WELCOME!
+## WELCOME!<br>
+
+<img src='https://i.loli.net/2021/08/14/jalR3OmuMXcp62K.jpg' style="text-align: left; margin-left: 0;" />
 
 Hi~ Welcome to my homepage!
 
 I'm Kokili and currently live in China.
 
-Kokili is my Japanese name, I use it to make myself look mysterious ( ~~装叉~~😂 )
+Kokili is my Japanese name (こきり), I use it to make myself look mysterious ( ~~装叉~~😂 )
 
 I aim to be a brilliant programmer and I will polish my skills all the way when I'm alive (??😂).
 
