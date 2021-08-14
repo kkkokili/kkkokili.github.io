@@ -12,7 +12,9 @@
           </span>
           <br>
           <span>Powered by</span> <a href="http://xxiaotong.site">Kokili |</a>
-
+          
+           <!--  busuanzi -->
+          <% if (theme.busuanzi && theme.busuanzi.enable){ %>
           <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: inline;">
             <span class="post-meta-item-icon">
               <i class="fa fa-user"></i>
@@ -29,6 +31,8 @@
               <span id="busuanzi_value_site_pv"></span>
             </span>
           </span>
+          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <% } %>
 
         </p>
 
@@ -39,7 +43,7 @@
 </footer>
 
 <!-- busuanzi -->
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
 
 <!-- jQuery -->
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
