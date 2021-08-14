@@ -104,6 +104,9 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "Sylvie",
+        href: "https://mp.weixin.qq.com/mp/homepage?__biz=MzI1MzQ0MDYzNQ==&hid=1&sn=37b373d58630bcd40dcdfe0080c68947&scene=18"
+    },{
         title: "Apple",
         href: "https://apple.com"
     },{
