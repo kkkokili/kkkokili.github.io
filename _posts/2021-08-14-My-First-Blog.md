@@ -22,7 +22,7 @@ Kokili is my Japanese name (こきり), I use it to make myself look mysterious 
 
 I aim to be a brilliant programmer and I will polish my skills all the way when I'm alive (??😂).
 
-Photography is one of my pleasure when I'm free ( 👉 [Check out My Gallery Here](link)), yeah, I guess it's one of my hobbies.
+Photography is one of my pleasure ( 👉 [Check out My Gallery Here](link)), yeah, I guess it's one of my hobbies.
 
 And I'm willing to learn different languages when there's spare time, also insterested in different cultures. If you are willing to tell me more about your culture, just send me an email. I have already pricked my ear up! :P
 
