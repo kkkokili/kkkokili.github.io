@@ -19,7 +19,7 @@ Hi~ Welcome to my homepage!
 
 I'm Kokili and currently live in China.
 
-Kokili is my Japanese name, I use it to make myself look mysterious ( ~~装叉~~😂 )
+Kokili is my Japanese name(こきり), I use it to make myself look mysterious ( ~~装叉~~😂 )
 
 I aim to be a brilliant programmer and I will polish my skills all the way when I'm alive (??😂).
 
