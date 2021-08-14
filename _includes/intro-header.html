@@ -1,0 +1,149 @@
+{% comment %}
+@param {string} type - 'page' | 'post' | 'keynote'
+@param {boolean} short
+{% endcomment %}
+
+{% if include.type == 'post' %}
+<style type="text/css">
+  header.intro-header {
+    position: relative;
+    background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+
+    background: {
+        {
+        page.header-bg-css
+      }
+    }
+
+    ;
+  }
+
+    {
+    % if page.header-mask %
+  }
+
+  header.intro-header .header-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    background: rgba(0, 0, 0, {
+          {
+          page.header-mask
+        }
+      }
+
+    );
+  }
+
+    {
+    % endif %
+  }
+</style>
+{% if page.header-style == 'text' %}
+<header class="intro-header style-text">
+  {% else %}
+  <header class="intro-header">
+    {% endif %}
+    <div class="header-mask"></div>
+    {% if page.header-img-credit %}
+    <div class="header-img-credit">
+      Image by <a href="//{{page.header-img-credit-href}}">{{page.header-img-credit}}</a>
+    </div>
+    {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="post-heading">
+            <div class="tags">
+              {% for tag in page.tags %}
+              <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+              {% endfor %}
+            </div>
+            <style>
+              @media only screen and (min-width: 600px) {
+                h1 {
+                  width: 1100px;
+                }
+              }
+            </style>
+            <h1>{{ page.title }}</h1>
+            {% comment %} always create a h2 for keeping the margin {% endcomment %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+            <br>
+            <form method="get" action="https://www.buymeacoffee.com/kokili" style="display: inline;">
+              <button class="btn" type="submit" style="width: 180px; height: 45px; position: relative; top: 12px; background-color: transparent; border: solid 0.5px white;" name="button"><img style="position: relative; right: 20px; bottom: 5px;"
+                  src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="font-size: 1rem; margin-left:5px; position: relative; right: 20px; bottom: 5px;">Buy me a coffee</span></button>
+            </form>
+            <span style="visibility: hidden;">xxxxxxxxxx</span>
+            <form method="get" action="http://kkkokili.github.io/weichatReward.html" style="display: inline;">
+              <button class="btn" type="button" style="width: 180px; height: 45px; position: relative; top: 12px; background-color: transparent; border: solid 0.5px white;" name="button"><i style="position: relative; right: 20px; bottom: 5px;"
+                  class="fa fa-weixin" style="color: green;" target="_blank" aria-hidden="true"></i><span style="font-size: 1rem; margin-left:5px; position: relative; right: 20px; bottom: 5px;">Weichat Reward</span></a></button><br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  {% endif %}
+
+  {% if include.type == 'keynote' %}
+  <style type="text/css">
+    header.intro-header {
+      height: 500px;
+      overflow: hidden;
+    }
+
+    header.intro-header .container {
+      visibility: hidden;
+    }
+
+    header iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+  <header class="intro-header">
+    <iframe src="{{page.iframe}}"></iframe>
+    <!-- keep for SEO -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="post-heading">
+            <div class="tags">
+              {% for tag in page.tags %}
+              <a class="tag" href="{{ site.baseurl }}/archive/?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
+              {% endfor %}
+            </div>
+            <h1>{{ page.title }}</h1>
+            {% comment %} always create a h2 for keeping the margin {% endcomment %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
+              on {{ page.date | date: "%B %-d, %Y" }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  {% endif %}
+
+  {% if include.type == 'page' %}
+  <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          {% if include.short %}
+          <div class="site-heading" id="tag-heading">
+            {% else %}
+            <div class="site-heading">
+              {% endif %}
+              <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+              <span class="subheading">{{ page.description }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+  {% endif %}
