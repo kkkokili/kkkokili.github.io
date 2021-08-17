@@ -19,8 +19,6 @@ tags:
 ## Prerequisites
 package: passport, passport-local passport-local-mongoose express-session
 
-## Package Install Code
-
 `npm i passport passport-local passport-local-mongoose express-session`
 
 ## Package Guide
