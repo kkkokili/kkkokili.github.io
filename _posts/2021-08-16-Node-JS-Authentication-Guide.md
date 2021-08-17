@@ -23,7 +23,7 @@ package: passport, passport-local passport-local-mongoose express-session
 
 `npm i passport passport-local passport-local-mongoose express-session`
 
-## Package Clarify
+## Package Guide
 ### express-session
 
 This package is used to create a session middleware and set the needed cookie for the specified cookie
