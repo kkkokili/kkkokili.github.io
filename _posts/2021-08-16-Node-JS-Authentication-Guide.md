@@ -14,6 +14,8 @@ tags:
 > You’ve added a popular hashing method to your application, but you’d like to simplify the code or, better, put it behind the scenes. It’s great to   know how hashing works, and tools are available to perform the hashing you want without the need to manually set up your own criteria for hashing.  Packages such as passport.js hash and authenticate user interactions without your needing to specify a password field in the schema. In this article, you look at the quickest and most efficient implementations of the passport package.
 
 
+> note:  Note Session data is not saved in the cookie itself, just the session ID. Session data is stored server-side.
+
 ## Prerequisites
 package: passport, passport-local passport-local-mongoose express-session
 
@@ -24,9 +26,9 @@ package: passport, passport-local passport-local-mongoose express-session
 ## Package Clarify
 ### express-session
 
-This package is used to set the needed cookie for the specified cookie
+This package is used to create a session middleware and set the needed cookie for the specified cookie
 
-> note:  Note Session data is not saved in the cookie itself, just the session ID. Session data is stored server-side.
+
 
 #### Set-Up-Code
 
