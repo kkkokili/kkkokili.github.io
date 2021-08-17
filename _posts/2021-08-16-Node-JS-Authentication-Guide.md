@@ -22,6 +22,7 @@ package: passport, passport-local passport-local-mongoose express-session
 This package is used to set the needed cookie for the specified cookie
 
 > note:  Note Session data is not saved in the cookie itself, just the session ID. Session data is stored server-side.
+
 #### Set-Up-Code
 
 ```
