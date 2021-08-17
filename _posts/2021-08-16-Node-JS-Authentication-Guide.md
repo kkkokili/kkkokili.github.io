@@ -17,7 +17,7 @@ tags:
 > note:  Note Session data is not saved in the cookie itself, just the session ID. Session data is stored server-side.
 
 ## Prerequisites
-package: passport, passport-local passport-local-mongoose express-session
+package: passport, passport-local, passport-local-mongoose, express-session
 
 `npm i passport passport-local passport-local-mongoose express-session`
 
