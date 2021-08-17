@@ -17,6 +17,11 @@ tags:
 ## Prerequisites
 package: passport, passport-local passport-local-mongoose express-session
 
+## Package Install Code
+
+`npm i passport passport-local passport-local-mongoose express-session`
+
+## Package Clarify
 ### express-session
 
 This package is used to set the needed cookie for the specified cookie
@@ -54,9 +59,7 @@ Passport.js is middleware used by Node.js to hash new user passwords and authent
 ### passport-local-mongoose
 Passport-Local-Mongoose is a Mongoose plugin which uses passport and mongoose together to perform hashing for you behind the scenes. This module auto-generates salt and hash fields, you don’t require to hash the password with this crypto module, the passport-local-mongoose does this for you.
 
-## Install
 
-`npm i passport passport-local passport-local-mongoose express-session`
 
 ## Reference
 
