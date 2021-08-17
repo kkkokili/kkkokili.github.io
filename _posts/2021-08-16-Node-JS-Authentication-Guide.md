@@ -36,7 +36,7 @@ app.use(session({
 
 ```
 
-##### Option Params Explain
+#### Option Params Explain
 
 * **resave**:  This basicly means for every request to the server, we want to have a new session.
 
