@@ -56,6 +56,10 @@ app.use(session({
 ### Passport
 Passport.js is middleware used by Node.js to hash new user passwords and authenticate their activity on an application. Passport.js uses different methods to create and log in user accounts, ranging from basic login with username and password to login with third-party services such as Facebook. These login methods are called strategies, and the strategy you’ll use for your recipe application is a local strategy because you aren’t using external services.
 
+### Passport-Local
+Passport JS has over 500 authentication “Strategies” that can be used within a Node/Express app. Many of these strategies are highly specific (i.e. passport-amazon allows you to authenticate into your app via Amazon credentials), but they all work similar within your Express app.
+In my opinion, the Passport module could use some work in the department of documentation. Not only does Passport consist of two modules (Passport base + Specific Strategy), but it is also a middleware, which as we saw is a bit confusing in its own right. To add to the confusion, the strategy that we are going to walk through (passport-local) is a middleware that modifies an object created by another middleware (express-session). 
+
 ### passport-local-mongoose
 Passport-Local-Mongoose is a Mongoose plugin which uses passport and mongoose together to perform hashing for you behind the scenes. This module auto-generates salt and hash fields, you don’t require to hash the password with this crypto module, the passport-local-mongoose does this for you.
 
