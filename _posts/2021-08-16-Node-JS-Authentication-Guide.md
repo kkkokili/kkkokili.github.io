@@ -44,7 +44,7 @@ app.use(session({
 
 #### Option Params Explain
 
-* **resave**:  This basicly means for every request to the server, we want to have a new session.
+* **resave**:  This basicly means for every request to the server, we want to have a new session. when set to true, this will force the session to save even if nothing changed.  If you don't set this, the app will still run but you will get a warning in the terminal
 
 * **saveUninitialized**:  Forces a session that is "uninitialized" to be saved to the store. A session is uninitialized when it is new but not modified. Choosing false is useful for implementing login sessions, reducing server storage usage, or complying with laws that require permission before setting a cookie. Choosing false will also help with race conditions where a client makes multiple parallel requests without a session.
 
@@ -63,7 +63,7 @@ Passport-Local-Mongoose is a Mongoose plugin which uses passport and mongoose to
 
 ## Reference
 
-* [Local Authentication Using Passport in Node.js](https://www.sitepoint.com/local-authentication-using-passport-node-js/)
+
 * [Everything you need to know about the `passport-local` Passport JS Strategy](https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195)
 * [passport-local](http://www.passportjs.org/packages/passport-local/)
 * [Authentication: JWT usage vs session](https://stackoverflow.com/questions/43452896/authentication-jwt-usage-vs-session)
