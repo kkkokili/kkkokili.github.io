@@ -30,7 +30,7 @@ This package is used to create a session middleware and set the needed cookie fo
 
 Cookie-session is basically used for lightweight session applications where the session data is stored in a cookie but within the client(browser). Browsers are supposed to support at most 4096 bytes per cookie, to ensure you don’t exceed the limit, don’t exceed a size of 4093 bytes per domain. 
 
-whereas, Express-Session stores just a mere session identifier within a cookie in the client end, whilst storing the session data entirely on the server.
+whereas, Express-Session stores just a mere session identifier within a cookie in the client end, whilst storing the session data entirely on the server. Compared with cookie-session package which only resides in browser, it supports more different session stores (like files, DB, cache and whatnot).
 
 Cookie Session is helpful in applications where no database is used in the back-end. However, the session data cannot exceed the cookie size. On conditions where a database is used, it acts like a cache to stop frequent database lookups which is expensive.
 
