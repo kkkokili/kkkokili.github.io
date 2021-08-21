@@ -21,6 +21,8 @@ package: passport, passport-local, passport-local-mongoose, express-session
 
 `npm i passport passport-local passport-local-mongoose express-session`
 
+### Documentation: [express-session](https://openbase.com/js/express-session), [passport](http://www.passportjs.org/docs/), [Different passport strategy](http://www.passportjs.org/packages/), [passport-local-mongoose](https://openbase.com/js/passport-local-mongoose)
+
 ## Package Guide
 ### express-session
 
