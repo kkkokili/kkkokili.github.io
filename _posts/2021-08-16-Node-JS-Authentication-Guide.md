@@ -31,7 +31,7 @@ package: passport, passport-local, passport-local-mongoose, express-session
 ## Package Guide
 ### express-session
 
-This package is used to create a session middleware and set the needed cookie for the specified session
+This package is used to create a session middleware and set the needed cookie for the specified session. This module expands the Express request object with the session property (among other things), which itself is an object that can be used by other middleware.
 
 ![2021-08-21.png](https://i.loli.net/2021/08/21/ZU7bRvqTjCH5NI9.png)
 
