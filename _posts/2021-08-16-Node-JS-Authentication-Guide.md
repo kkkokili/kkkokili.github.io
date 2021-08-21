@@ -52,7 +52,7 @@ app.use(session({
 
 #### Option Params Explain
 
-* **secret**: The secret param is used to encrpt the cookie id, because you don't want the normal id to be sent in the browser, so that anyone can see it. So we will enript it first here.
+* **secret**: The secret param is used to encrpt the session id, because you don't want the normal id to be sent in the browser that anyone can see it. So we will enript it first also through the express-session package here.
 
 * **resave**:  This basicly means for every request to the server, we want to have a new session. when set to true, this will force the session to save even if nothing changed.  If you don't set this, the app will still run but you will get a warning in the terminal
 
