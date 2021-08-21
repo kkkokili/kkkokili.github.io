@@ -26,6 +26,8 @@ package: passport, passport-local, passport-local-mongoose, express-session
 
 This package is used to create a session middleware and set the needed cookie for the specified session
 
+![2021-08-21.png](https://i.loli.net/2021/08/21/ZU7bRvqTjCH5NI9.png)
+
 
 
 #### Set-Up-Code
@@ -43,6 +45,8 @@ app.use(session({
 ```
 
 #### Option Params Explain
+
+* **secret**: The secret param is used to encrpt the cookie, because you don't want the normal id to be sent in the browser, so that anyone can see it. So we will enript it first here.
 
 * **resave**:  This basicly means for every request to the server, we want to have a new session. when set to true, this will force the session to save even if nothing changed.  If you don't set this, the app will still run but you will get a warning in the terminal
 
