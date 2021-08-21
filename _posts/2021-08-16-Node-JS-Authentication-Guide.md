@@ -4,7 +4,7 @@ title:      Node JS Authentication Guide
 subtitle:   (Original) Authentication in Node.js
 date:       2021-08-16
 author:     KOKILI
-header-img: img/about-bg-walle.jpg
+header-img: img/whale.jpg
 catalog: true
 tags:
     - Node.js
