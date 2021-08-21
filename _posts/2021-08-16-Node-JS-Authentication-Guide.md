@@ -54,7 +54,9 @@ app.use(session({
 
 
 ### Passport
-Passport.js is middleware used by Node.js to hash new user passwords and authenticate their activity on an application. Passport.js uses different methods to create and log in user accounts, ranging from basic login with username and password to login with third-party services such as Facebook. These login methods are called strategies, and the strategy you’ll use for your recipe application is a local strategy because you aren’t using external services.
+Passport is Express-compatible authentication middleware for Node.js.
+
+Passport's sole purpose is to authenticate requests, which it does through an extensible set of plugins known as strategies. Passport does not mount routes or assume any particular database schema, which maximizes flexibility and allows application-level decisions to be made by the developer. The API is simple: you provide Passport a request to authenticate, and Passport provides hooks for controlling what occurs when authentication succeeds or fails.
 
 ### Passport-Local
 Passport strategy for authenticating with a username and password.
