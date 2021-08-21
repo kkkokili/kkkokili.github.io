@@ -52,7 +52,7 @@ app.use(session({
 
 #### Option Params Explain
 
-![Snipaste_2021-08-21_16-23-15.png](https://i.loli.net/2021/08/21/xUvjZnrWqclLomN.png)
+![Snipaste_2021-08-21_16-23-15.png](https://i.loli.net/2021/08/21/ner46RU5yqSgC3E.png)
 
 * **secret**: The secret param is used to encrpt the session id, because you don't want the normal id to be sent in the browser in case that anyone can see it. So we will enript it first also through the express-session package here.
 
