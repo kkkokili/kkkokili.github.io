@@ -54,7 +54,7 @@ app.use(session({
 
 ![Snipaste_2021-08-21_16-23-15.png](https://i.loli.net/2021/08/21/ner46RU5yqSgC3E.png)
 
-* **secret**: The secret param is used to encrpt the session id, because you don't want the normal id to be sent in the browser in case that anyone can see it. So we will enript it first also through the express-session package here.
+* **secret**: The secret param is used to encrpt the session id, because you don't want the normal id to be sent in the browser, so that anyone can see it. So we will enript it first through the express-session package here.
 
 * **resave**:  This basicly means for every request to the server, we want to have a new session. when set to true, this will force the session to save even if nothing changed.  If you don't set this, the app will still run but you will get a warning in the terminal
 
