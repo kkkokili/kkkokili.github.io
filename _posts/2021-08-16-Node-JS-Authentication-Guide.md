@@ -33,6 +33,8 @@ package: passport, passport-local, passport-local-mongoose, express-session
 
 This package is used to create a session middleware and set the needed cookie for the specified session. This module expands the Express request object with the session property (among other things), which itself is an object that can be used by other middleware.
 
+It creates a session for every user by generating a special ID that serves as a unique key for the session data. This ID is stored and sent in a cookie, while the session data is saved in a memory store or cache.
+
 ![2021-08-21.png](https://i.loli.net/2021/08/21/ZU7bRvqTjCH5NI9.png)
 
 Cookie-session is basically used for lightweight session applications where the session data is stored in a cookie but within the client(browser). Browsers are supposed to support at most 4096 bytes per cookie, to ensure you don’t exceed the limit, don’t exceed a size of 4093 bytes per domain. 
