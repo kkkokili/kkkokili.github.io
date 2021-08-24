@@ -131,6 +131,16 @@ when I get to the homepage, I get the session result of
 
 ![Snipaste_2021-08-24_19-00-54.png](https://i.loli.net/2021/08/24/GkiCKSRvcTlNHDe.png)
 
+notice here I set the option "saveUninitialized" true. Next, let's see what will happen after set it to false.
+
+![Snipaste_2021-08-24_19-18-51.png](https://i.loli.net/2021/08/24/XNgxKjUC2E5RYIf.png)
+
+Different from the result we get above, when we reach the homepage, No session saved in the collection. But I'm still confused about what they wanna express through the word "Uninitialized"...
+
+When I read through the documentation of passport in "sessions" narration of "Configure" H1, I think that's might be the hint. The sentence shows as below.
+
+![Snipaste_2021-08-24_21-17-27.png](https://i.loli.net/2021/08/24/YG4y72z6FPE8vKw.png)
+
 
 
 
