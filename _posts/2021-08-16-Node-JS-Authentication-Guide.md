@@ -141,6 +141,8 @@ When I read through the documentation of passport in "sessions" narration of "Co
 
 ![Snipaste_2021-08-24_21-17-27.png](https://i.loli.net/2021/08/24/YG4y72z6FPE8vKw.png)
 
+I guess if we set the uninitialized  false, the session will only be established when the authentication is successed. It's my only guess, but I will leave it here and let it go. Next let's use all the 4 packages(express-session, passport, passport-local, passport-local-mongoose) together to set up the web app.
+
 
 
 
