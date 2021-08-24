@@ -175,7 +175,7 @@ Passport-Local-Mongoose is a Mongoose plugin which uses passport and mongoose to
 
 ## Q&A
 
-* `passport.authenticate()` IS NOT SECURE！
+* #### `passport.authenticate()` IS NOT SECURE！
 I saw several of you posted this problem, and the reason why is in passport's documentation
 
 ![Snipaste_2021-08-24_21-40-06.png](https://i.loli.net/2021/08/24/e4ATDvhkNoX7Vuf.png)
