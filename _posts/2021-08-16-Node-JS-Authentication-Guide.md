@@ -172,3 +172,11 @@ Passport-Local-Mongoose is a Mongoose plugin which uses passport and mongoose to
 * [passport-local](http://www.passportjs.org/packages/passport-local/)
 * [Authentication: JWT usage vs session](https://stackoverflow.com/questions/43452896/authentication-jwt-usage-vs-session)
 * [Cookies and Session IDs](https://cscie12.dce.harvard.edu/lecture_notes/2007-08/20080423/slide51.html)
+
+## Q&A
+
+* `passport.authenticate()` IS NOT SECURE！
+I saw several of you posted this problem, and the reason why is in passport's documentation
+
+![Snipaste_2021-08-24_21-40-06.png](https://i.loli.net/2021/08/24/e4ATDvhkNoX7Vuf.png)
+
