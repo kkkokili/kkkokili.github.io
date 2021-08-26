@@ -168,10 +168,10 @@ Passport-Local-Mongoose is a Mongoose plugin which uses passport and mongoose to
 ## Reference
 
 
-* 1. [passport-local](http://www.passportjs.org/packages/passport-local/)
-* 2. [Authentication: JWT usage vs session](https://stackoverflow.com/questions/43452896/authentication-jwt-usage-vs-session)
-* 3. [Cookies and Session IDs](https://cscie12.dce.harvard.edu/lecture_notes/2007-08/20080423/slide51.html)
-* 4. [Understanding passport serialize deserialize](https://stackoverflow.com/questions/27637609/understanding-passport-serialize-deserialize)
+ 1. [passport-local](http://www.passportjs.org/packages/passport-local/)
+ 2. [Authentication: JWT usage vs session](https://stackoverflow.com/questions/43452896/authentication-jwt-usage-vs-session)
+ 3. [Cookies and Session IDs](https://cscie12.dce.harvard.edu/lecture_notes/2007-08/20080423/slide51.html)
+ 4. [Understanding passport serialize deserialize](https://stackoverflow.com/questions/27637609/understanding-passport-serialize-deserialize)
 
 ## Q&A
 
