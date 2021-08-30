@@ -11,4 +11,4 @@ tags:
     - Authentication
 ---
 
-https://www.cnblogs.com/xiaowangbangzhu/p/10346040.html
+[微信一键登录（微信OAuth2.0）](https://www.cnblogs.com/xiaowangbangzhu/p/10346040.html)
