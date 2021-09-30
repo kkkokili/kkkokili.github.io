@@ -18,7 +18,7 @@ Hi~ Welcome to my homepage!
 
 I'm Kokili and currently live in China. Kokili is my Japanese name (こきり), I love to learn different languages and know more about different cultures when there's spare time.
 
-I acquire the language proficiency in Chinese, English and Japanese. And hope to learn more languages in the future. Photography is my another pleasure ( 👉 [Check out My Gallery Here](link))
+I acquire the language proficiency in Chinese, English and Japanese. And hope to learn more languages in the future. Photography is my another pleasure ( 👉 [Check out My Gallery Here](link)).
 
 I aim to be a brilliant programmer and I will polish my programming skills all the way as a developer.
 
