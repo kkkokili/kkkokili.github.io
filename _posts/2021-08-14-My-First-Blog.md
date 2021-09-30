@@ -16,19 +16,13 @@ tags:
 
 Hi~ Welcome to my homepage!
 
-I'm Kokili and currently live in China.
+I'm Kokili and currently live in China. Kokili is my Japanese name (こきり), I love to learn different languages and know more about different cultures when there's spare time. I acquire the language proficiency in Chinese, English and Japanese. And hope to learn more languages in the future. Photography is my another pleasure ( 👉 [Check out My Gallery Here](link))
 
-Kokili is my Japanese name (こきり), I use it to make myself look mysterious ( ~~装叉~~😂 )
-
-I aim to be a brilliant programmer and I will polish my skills all the way when I'm alive (??😂).
-
-Photography is one of my pleasure ( 👉 [Check out My Gallery Here](link)), yeah, I guess it's one of my hobbies.
-
-And I'm willing to learn different languages when there's spare time, also insterested in different cultures. If you are willing to tell me more about your culture, just send me an email. I have already pricked my ear up! :P
-
-I acquire the language proficiency in Chinese, English and Japanese. And hope to learn more languages in the next year.
+I aim to be a brilliant programmer and I will polish my programming skills all the way as a developer. Please check out some of my portfolio projects which show my proficiency in Python, SQL, Spark SQL, Mongo DB, Git,H TML5, CSS, Bootstrap, JavaScript, jQuery, Node.JS, Express, React, Pug, ejs, Markdown and other web technologies 😊!
 
 This web is built upon [Git pages](https://pages.github.com/) and the framework of [Jekyll](https://www.jekyll.com.cn/), you can check it out in my github. If you have any question, leave me messages!
+
+If you are willing to tell me more about your culture, just send me an email. I have already pricked my ear up! :P
 
 — 小桐❤<br><br>
 — 14/08/2021
