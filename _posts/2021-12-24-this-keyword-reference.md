@@ -10,7 +10,8 @@ tags:
     - js
 ---
 
-# This
+# watch in Vue
 
-https://www.cnblogs.com/web-record/p/10288556.html
+Async watch
+[Async watch](https://stackoverflow.com/questions/40321994/are-watches-asynchronous)
 
