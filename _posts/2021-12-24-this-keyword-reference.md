@@ -7,11 +7,10 @@ author:     KO
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
-    - js
+    - JS
 ---
 
-# watch in Vue
+# this
 
-Async watch
-[Async watch](https://stackoverflow.com/questions/40321994/are-watches-asynchronous)
+[this](https://www.cnblogs.com/web-record/p/10288556.html)
 
