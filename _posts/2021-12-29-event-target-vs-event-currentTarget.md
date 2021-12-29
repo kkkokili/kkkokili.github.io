@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      event.target vs event.currentTarget
-subtitle:   targe和currentTarget的区别
+subtitle:   target和currentTarget的区别
 date:       2021-12-29
 author:     KO
 header-img: img/post-bg-universe.jpg
