@@ -16,7 +16,7 @@ tags:
 <iframe
     width="640"
     height="480"
-    src="https://www.youtube.com/embed/LVDy9x4Ff2Y"
+    src="https://www.youtube.com/LVDy9x4Ff2Y"
     frameborder="0"
     allow="autoplay; encrypted-media"
     allowfullscreen
