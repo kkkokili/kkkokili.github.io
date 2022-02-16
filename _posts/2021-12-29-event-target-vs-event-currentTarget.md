@@ -34,6 +34,7 @@ tags:
 正确写法：`e.currentTarget.childNodes[1].firstChild.innerText`
 
 -------------------- 我是分割线---------------------------------
-=====>           另外,  有关冒泡与捕获事件的传送带:[冒泡与捕获](https://zh.javascript.info/bubbling-and-capturing)
+另外,  有关冒泡与捕获事件的传送带:
+[冒泡与捕获](https://zh.javascript.info/bubbling-and-capturing)
 
 
