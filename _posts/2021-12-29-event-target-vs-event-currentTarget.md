@@ -28,5 +28,7 @@ tags:
 -------------------------------
 ```
 
+![picture](https://upload.cc/i1/2022/02/16/8RwtYU.png)
+
 
 正确写法：`e.currentTarget.childNodes[1].firstChild.innerText`
