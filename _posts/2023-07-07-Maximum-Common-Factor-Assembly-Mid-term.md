@@ -10,10 +10,6 @@ tags:
     - Algorism
 ---
 
-
-## 原题 
-Write an x86 assembly program that finds the maximum common factor of two positive integers stored in the EAX and EBX registers and stores the result in ECX. You are only allowed to use only one label. You are allowed to write a maximum 25 lines of code. Violating any of these conditions will result in losing 4 points.
-
 ## 有关寻找最大公约数
 求两数的最大公约数，一共有四种方法：暴力穷举法、更相减损法、辗转相除法、stein 算法。这边只讲两种。详见可移入[最大公约数的四种方法](https://blog.csdn.net/Hell_potato777/article/details/127132815)
 
@@ -34,7 +30,35 @@ Write an x86 assembly program that finds the maximum common factor of two positi
 即先用 x 除以 y
 若余数为 0 则 y 为两数的最大公约数；若余数不为零，则令 x = y，y = 余数，重复步骤 1 直到余数为 0，此时的 y 为两数的最大公约数。
 
+## 原题 
+Write an x86 assembly program that finds the maximum common factor of two positive integers stored in the EAX and EBX registers and stores the result in ECX. You are only allowed to use only one label. You are allowed to write a maximum 25 lines of code. Violating any of these conditions will result in losing 4 points.
+
 ## 用辗转相除法做14题
-### 两个Label的
-### 一个Label的
+#### 两个Label的
+```
+start:
+   mov edx, 0
+   div ebx
+   cmp edx, 0
+   je result
+   mov eax, ebx
+   mov ebx, edx
+   jmp start
+
+result:
+   mov ecx, ebx
+
+```
+#### 一个Label的
+```
+start:
+   mov edx, 0
+   div ebx
+   mov eax, ebx
+   mov ecx, ebx
+   mov ebx, edx
+   cmp edx, 0
+   jne start
+ 
+```
 
