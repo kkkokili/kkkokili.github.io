@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      Maximum Common Factor
-subtitle:   Assembly Mid-term
+subtitle:   Assembly Mid-term question 14
 date:       2023-07-07
-author:     XT
+author:     KO
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
