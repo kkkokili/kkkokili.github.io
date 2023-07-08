@@ -9,8 +9,7 @@ catalog: true
 tags:
     - Algorism
 ---
-
-## 有关寻找最大公约数
+## 寻找最大公约数
 求两数的最大公约数，一共有四种方法：暴力穷举法、更相减损法、辗转相除法、stein 算法。这边只讲两种。详见可移入[最大公约数的四种方法](https://blog.csdn.net/Hell_potato777/article/details/127132815)
 
 ### 暴力穷举法
