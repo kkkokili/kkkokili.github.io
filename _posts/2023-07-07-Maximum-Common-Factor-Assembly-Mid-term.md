@@ -15,7 +15,7 @@ tags:
 Write an x86 assembly program that finds the maximum common factor of two positive integers stored in the EAX and EBX registers and stores the result in ECX. You are only allowed to use only one label. You are allowed to write a maximum 25 lines of code. Violating any of these conditions will result in losing 4 points.
 
 ## 有关寻找最大公约数
-求两数的最大公约数，一共有四种方法：暴力穷举法、更相减损法、辗转相除法、stein 算法。这边只讲两种。另外可移入[最大公约数的四种方法](https://blog.csdn.net/Hell_potato777/article/details/127132815)
+求两数的最大公约数，一共有四种方法：暴力穷举法、更相减损法、辗转相除法、stein 算法。这边只讲两种。详见可移入[最大公约数的四种方法](https://blog.csdn.net/Hell_potato777/article/details/127132815)
 
 ### 暴力穷举法
 正如名字所说，暴击穷举法就是简单粗暴地把 1~ y（前面已经假设 x > y）都列出来分别判断是否为 x、y 的约数，然后再找到其中最大的一个。
