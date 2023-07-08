@@ -4,7 +4,7 @@ title:      Maximum Common Factor
 subtitle:   Assembly Mid-term Question 14
 date:       2023-07-07
 author:     KO
-header-img: img/post-bg-universe.jpg
+header-img: img/galaxy-min.jpg.jpg
 catalog: true
 tags:
     - Algorism
