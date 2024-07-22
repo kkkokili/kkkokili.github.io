@@ -11,7 +11,7 @@ tags:
 ---
 ` ` `
 /*
- * Write to Shared Memory
+ * Read to Shared Memory
  * 10 Person Records
  *
  */
