@@ -9,7 +9,7 @@ catalog: true
 tags:
     - exam
 ---
-`  `  `
+```
 
 
 // consumer.c
@@ -88,4 +88,4 @@ int main() {
     return 0;
 }
 
-` ` `
+```
