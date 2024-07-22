@@ -1,0 +1,106 @@
+---
+layout:     post
+title:      Shm Read Tagged Pointer
+subtitle:   #7645
+date:       2024-07-22
+author:     
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
+    - exam
+---
+` ` `
+/*
+ * Write to Shared Memory
+ * 10 Person Records
+ *
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/mman.h>
+#include <string.h>
+#include <unistd.h>
+#include <semaphore.h>
+
+#include <sys/stat.h> // for fstat
+#define SHM_NAME "/shared_memory"
+#define SEM_NAME "/mysemaphore"
+#define PERSON_SIZE 10
+
+typedef struct{
+		char firstname[20];
+		char lastname[20];
+} Person;
+
+int main(){
+	int fd;	
+	int status;
+	sem_t *sem;
+	void *addr;
+	Person *person;
+	struct stat shm_file; // for fstat get file size
+	sem = sem_open(SEM_NAME, O_CREAT, 0660, 0);
+	if(sem == SEM_FAILED){
+		perror("sem_open");
+		exit(-1);
+	}
+
+	// open posix shared memory
+	
+	fd = shm_open(SHM_NAME, O_RDONLY, 0);
+	//fd = shm_open(SHM_NAME, O_CREAT | O_RDONLY, 0660);
+	if(fd == -1){
+			perror("shm_open");
+			exit(-1);
+	}
+	status = fstat(fd, &shm_file);
+	// create shared memory use mmap
+	addr = mmap(NULL, shm_file.st_size, PROT_READ, MAP_SHARED, fd, 0);
+
+	if(addr == MAP_FAILED){
+			perror("mmap");
+			exit(-1);
+	}
+	// close file descriptor
+	status = close(fd);
+	if(status == -1){
+			perror("close");
+			exit(-1);
+	}
+
+	// get lock
+	sem_wait(sem);
+
+	// read from shared memory
+	person = (Person *)addr;
+	for (int i = 0; i < 10; i++){
+	
+		printf("Person %d: %s %s\n", i, person[i].firstname, person[i].lastname);
+	}
+	sem_post(sem);
+	// close semaphore
+	status = sem_close(sem);
+	if(status == -1){
+			perror("sem_close");
+			exit(-1);
+	}
+	
+	// unlink shared memory
+	status = shm_unlink(SHM_NAME);
+	if(status == -1){
+			perror("shm_unlink");
+			exit(-1);
+	}
+	// unlink semaphore
+	status = sem_unlink(SEM_NAME);
+	if(status == -1){
+			perror("sem_unlink");
+			exit(-1);
+	}
+
+
+}
+
+
+` ` `
