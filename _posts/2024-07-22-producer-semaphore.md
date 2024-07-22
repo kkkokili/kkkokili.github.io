@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      semaphore Tagged Pointer
+title:      semaphore producer Tagged Pointer
 subtitle:   
 date:       2024-07-22
 author:    
